@@ -1,81 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>登录页面</title>
-    <script src="https://kit.fontawesome.com/4a4ce6258d.js" crossorigin="anonymous"></script>
-    <style>
-        body{
-            margin: 0px;
-            padding: 0px;
-            background-image: url("images/flower.png");
-            background-repeat: no-repeat;
-        }
-
-        #bigBox{
-            margin: 0 auto;
-            margin-top: 200px;
-            padding: 20px 50px;
-            width: 400px;
-            height: 300px;
-            border-radius: 10px;
-            background-color: rgba(52, 52, 59, 0.64);
-            text-align: center;
-        }
-
-        #bigBox h1{
-            color: rgba(95, 108, 159, 0.84);
-        }
-
-        #bigBox .inputBox{
-            margin-top: 40px;
-        }
-
-        #bigBox .inputBox .inputText{
-            margin-top: 20px;
-        }
-
-        #bigBox .inputBox .inputText input{
-            border: 0px;
-            padding: 10px 10px;
-            border-bottom: 1px solid white;
-            background-color: rgba(52, 52, 59, 0.64);
-            color: white;
-        }
-
-        #bigBox .inputBox .inputButton{
-            width: 150px;
-            height: 25px;
-            margin-top: 30px;
-            border-radius: 20px;
-            font-size: 15px;
-            background-color: #00DBDE;
-            background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-        }
-
-        .fas{
-            color: white;
-            margin-right: 10px;
-        }
-
-    </style>
-</head>
-<body>
-    <div id="bigBox">
-        <h1>LOGIN</h1>
-        <div class="inputBox">
-            <div class="inputText">
-                <i class="fas fa-user"></i>
-                <input type="text" placeholder="username">
-            </div>
-            <div class="inputText">
-                <i class="fas fa-lock"></i>
-                <input type="password" placeholder="password">
-            </div>
-            <input type="button" value="LOGIN" class="inputButton">
-
+    <head>
+        <script>
+            function my_onclick() {
+                alert("One more point will explode");
+            }
+        </script>
+    </head>
+    <body>
+        <!-- 页面整体居中的文字 -->
+        <div id="centerText">
+            <h1>Hellow!</h1>
+            <button onclick="my_onclick()">Click me</button>
         </div>
-    </div>
-
-</body>
+    </body>
 </html>
